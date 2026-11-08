@@ -1,4 +1,4 @@
-<img width="529" height="256" alt="Монитор2" src="https://github.com/user-attachments/assets/ab559406-90a6-4b37-8563-bb06883b7d6f" />
+<img width="1200" height="900" alt="Монитор" src="https://github.com/user-attachments/assets/621ea76e-524c-4b75-afd1-a372a56121bd" />
 После запуска JvmExperience.main() программа выводит приглашение и «засыпает» на 30 секунд, чтобы дать время подключиться.
 
 Строка консоли:
@@ -7,7 +7,8 @@ Please open 'ru.netology.JvmExperience' in VisualVm
 
 Что происходит в JVM: Главный поток main приостановлен вызовом Thread.sleep(30_000).
 На графиках VisualVM: В этот момент графики Heap, Metaspace и Classes стабильны. Загружены только базовые классы JDK и самого приложения (около 500 классов).
-<img width="1200" height="900" alt="Монитор" src="https://github.com/user-attachments/assets/621ea76e-524c-4b75-afd1-a372a56121bd" />
+
+<img width="529" height="256" alt="Монитор2" src="https://github.com/user-attachments/assets/ab559406-90a6-4b37-8563-bb06883b7d6f" />
 
 2. Загрузка классов в Metaspace
 Программа начинает сканировать пакеты с помощью библиотеки Reflections и загружать классы в память.
